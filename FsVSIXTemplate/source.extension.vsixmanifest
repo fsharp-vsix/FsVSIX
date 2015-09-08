@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="FsVSIX.Jared Hester.2902B0BA-72B9-4315-A050-013775A7138D" Version="0.1" Language="en-US" Publisher="Jared Hester" />
+    <DisplayName>FsVSIX Template</DisplayName>
+    <Description xml:space="preserve">Template for a VSIX Extensions written entirely in F#</Description>
+    <License>LICENSE.txt</License>
+    <GettingStartedGuide>index.html</GettingStartedGuide>
+    <ReleaseNotes>RELEASE_NOTES.txt</ReleaseNotes>
+    <Icon>vsix_icon.ico</Icon>
+    <PreviewImage>vsix_icon.ico</PreviewImage>
+    <Tags>f#, fsharp, visualstudio, extensibility, extension, vsextension, vsix</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency d:Source="Installed" Id="FSharp.Editor" DisplayName="Microsoft Visual FSharp Editor Extensions" Version="[12.0,15.0)" d:InstallSource="Download" Location="http://www.microsoft.com/en-us/download/details.aspx?id=48179" />
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets >
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\FSharp\Extensibility\FsVSIX.zip" />
+  </Assets>
+
+</PackageManifest>

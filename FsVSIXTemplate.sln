@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FsVSIXBundle", "FsVSIXTemplate\FsVSIXBundle.csproj", "{45D54DFB-2028-471C-8F06-7FFA34FCD822}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skeleton", "Skeleton", "{C7D71B7C-7FC8-4DAE-BF4F-5DD9538BCA1C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsVSIX", "FsVSIX\FsVSIX.fsproj", "{46EFE4A0-7706-479C-811B-32D9D4712BD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{2D3FC231-ABAC-4843-9B2A-C8A6052EC49C}"
+	ProjectSection(SolutionItems) = preProject
+		icon\vsix_icon.ico = icon\vsix_icon.ico
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{67CD2D25-CAA1-4D70-B94F-79D955E44104}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		RELEASE_NOTES.txt = RELEASE_NOTES.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D54DFB-2028-471C-8F06-7FFA34FCD822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D54DFB-2028-471C-8F06-7FFA34FCD822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D54DFB-2028-471C-8F06-7FFA34FCD822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D54DFB-2028-471C-8F06-7FFA34FCD822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EFE4A0-7706-479C-811B-32D9D4712BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EFE4A0-7706-479C-811B-32D9D4712BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EFE4A0-7706-479C-811B-32D9D4712BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EFE4A0-7706-479C-811B-32D9D4712BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46EFE4A0-7706-479C-811B-32D9D4712BD9} = {C7D71B7C-7FC8-4DAE-BF4F-5DD9538BCA1C}
+	EndGlobalSection
+EndGlobal

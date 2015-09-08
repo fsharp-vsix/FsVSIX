@@ -8,6 +8,8 @@ version: 0.0.1.{build}
 artifacts:
   - path: vsix
     name: vsix
+
+configuration: Release
     
 platform:
   - x86

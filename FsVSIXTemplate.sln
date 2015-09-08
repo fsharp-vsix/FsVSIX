@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{67CD
 		RELEASE_NOTES.txt = RELEASE_NOTES.txt
 	EndProjectSection
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Templater", "Templater\Templater.fsproj", "{1723695A-BCCB-4414-8275-E00409F87110}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,14 @@ Global
 		{46EFE4A0-7706-479C-811B-32D9D4712BD9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{46EFE4A0-7706-479C-811B-32D9D4712BD9}.Release|x86.ActiveCfg = Release|x86
 		{46EFE4A0-7706-479C-811B-32D9D4712BD9}.Release|x86.Build.0 = Release|x86
+		{1723695A-BCCB-4414-8275-E00409F87110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1723695A-BCCB-4414-8275-E00409F87110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1723695A-BCCB-4414-8275-E00409F87110}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1723695A-BCCB-4414-8275-E00409F87110}.Debug|x86.Build.0 = Debug|Any CPU
+		{1723695A-BCCB-4414-8275-E00409F87110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1723695A-BCCB-4414-8275-E00409F87110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1723695A-BCCB-4414-8275-E00409F87110}.Release|x86.ActiveCfg = Release|Any CPU
+		{1723695A-BCCB-4414-8275-E00409F87110}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

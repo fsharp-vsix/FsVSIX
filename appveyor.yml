@@ -1,15 +1,18 @@
++os: Visual Studio 2015
+
 init:
   - git config --global core.autocrlf input
 
-test: off
-
-version: 0.0.1.{build}
-
-artifacts:
-  - path: vsix
-    name: vsix
-
 configuration: Release
-    
 platform:
   - x86
+  
+install:
+  - set PATH=%ProgramFiles(x86)%\MSBuild\14.0\Bin;%PATH%
+
+test: off
+version: 0.0.1.{build}
+artifacts:
+  - path: Release
+    name: Release
+
